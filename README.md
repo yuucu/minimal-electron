@@ -2,15 +2,18 @@
 
 
 ### memo
+https://maku.blog/p/78whxix/
+
+```
+npm start
+```
 
 ```shell
 npm init -y
 npm install electron --save-dev
-```
 
-srcフォルダにpackage.jsonを作成する。
-```json:package.json
-{
-  "main": "index.js"
-}
+# typescript settings
+npm install typescript --save-dev
+npm install @types/node --save-dev
+npx tsc --init
 ```
